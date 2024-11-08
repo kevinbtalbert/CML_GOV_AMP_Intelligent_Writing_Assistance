@@ -42,7 +42,7 @@ from typing import List, Union
 
 import torch
 import numpy as np
-from pyemd import emd
+from scipy.stats import wasserstein_distance as emd
 from transformers import pipeline
 
 
